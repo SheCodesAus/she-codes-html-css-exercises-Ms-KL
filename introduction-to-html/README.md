@@ -14,33 +14,35 @@ Notes taken from class work:
 
 - HTML Elements are the building blocks on the page.
 
--                   <!doctype html>
-- HTML              <html> This communicates the language </html> 
-- HTML              <html lang="en"></html>
-- HEAD              <head> Top section of page </head>
-- TITLE             <title> Insert tab title </title>
-- META              <meta name="description" content="similar / same as title">
-- META              <meta name="author" content="She Codes">
-- Link to CSS       <link rel="stylesheet" href="styles.css">
-- NAVIGATION        <nav><a href="insert link">Clickable text</a><nav>
-- Body              <body>Content of page</body>
-- Division          <div>Divider for parts in a website</div>
-- Heading           <h1>use H1 only once</h1>
-- Sub heading       <h2>insert header</h2> etc
-- Paragraph         <p>insert text<p>
+-       <!doctype html>
+-       <html> This communicates the language </html> 
+-       <html lang="en"></html>
+-       <head> Top section of page </head>
+-       <title> Insert tab title </title>
+-       <meta name="description" content="similar / same as title">
+-       <meta name="author" content="She Codes">
+-       <link rel="stylesheet" href="styles.css">
+-       <nav>
+        <a href="insert link">Clickable text</a>
+        </nav>
+-       <body>Content of page</body>
+-       <div>Divider for parts in a website</div>
+-       <h1>use H1 only once</h1>
+-       <h2>insert header</h2> etc
+-       <p>insert text<p>
 
-- Unordered list    <ul>    
-                        <li>item1</li>    
-                        <li>item2</li>    
-                        <li>item3</li>
-                    </ul>
-- Ordered list      <ol>    
-                        <li>item1</li>    
-                        <li>item2</li>    
-                        <li>item3</li>
-                    </ol>
+-       <ul>    
+            <li>item1</li>    
+            <li>item2</li>    
+            <li>item3</li>
+        </ul>
+-       <ol>    
+            <li>item1</li>    
+            <li>item2</li>    
+            <li>item3</li>
+        </ol>
 
-- Anchor            <a href="insert link">Clickable text</a>
-- Image             <img src="insert" alt="this is an image description"> Self Closing Tag
-- Footer            <footer> footer text </footer>
+-       <a href="insert link">ANCHOR - Clickable text</a>
+-       <img src="insert" alt="this is an image description"> Self Closing IMAGE Tag
+-       <footer> footer text </footer>
 
