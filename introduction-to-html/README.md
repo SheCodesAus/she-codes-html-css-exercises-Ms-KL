@@ -17,32 +17,32 @@ Notes taken from class work:
 -       <!doctype html>
 -       <html> This communicates the language </html> 
 -       <html lang="en"></html>
--       <head> Top section of page </head>
--       <title> Insert tab title </title>
--       <meta name="description" content="similar / same as title">
--       <meta name="author" content="She Codes">
--       <link rel="stylesheet" href="styles.css">
--       <nav>
-        <a href="insert link">Clickable text</a>
-        </nav>
--       <body>Content of page</body>
--       <div>Divider for parts in a website</div>
--       <h1>use H1 only once</h1>
--       <h2>insert header</h2> etc
--       <p>insert text<p>
+-           <head> Top section of page </head>
+-               <title> Insert tab title </title>
+-               <meta name="description" content="similar / same as title">
+-               <meta name="author" content="She Codes">
+-               <link rel="stylesheet" href="styles.css">
+-               <nav>
+                    <a href="insert link">Clickable text</a>
+                </nav>
+-           <body>Content of page</body>
+-               <div>Divider for parts in a website</div>
+-               <h1>use H1 only once</h1>
+-               <h2>insert header</h2> etc
+-               <p>insert text<p>
 
--       <ul>    
-            <li>item1</li>    
-            <li>item2</li>    
-            <li>item3</li>
-        </ul>
--       <ol>    
-            <li>item1</li>    
-            <li>item2</li>    
-            <li>item3</li>
-        </ol>
+-               <ul>    
+                    <li>item1</li>    
+                    <li>item2</li>    
+                    <li>item3</li>
+                </ul>
+-               <ol>    
+                    <li>item1</li>    
+                    <li>item2</li>    
+                    <li>item3</li>
+                </ol>
 
--       <a href="insert link">ANCHOR - Clickable text</a>
--       <img src="insert" alt="this is an image description"> Self Closing IMAGE Tag
--       <footer> footer text </footer>
+-               <a href="insert link">ANCHOR - Clickable text</a>
+-               <img src="insert" alt="this is an image description"> Self Closing IMAGE Tag
+-               <footer> footer text </footer>
 
