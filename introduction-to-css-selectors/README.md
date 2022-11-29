@@ -18,11 +18,13 @@ Notes taken from class work:
 - We use class if we want multiple elements to have the same styles applied.
 - We use id if we want only one element to have styles applied.
 
+__________________________________________________________
+
 - TYPE:    typename {}
 
     The following will select and style all elements with the <div> tag:
 
-    HTML:
+> HTML:
         <div>
             <div>
                 <h2>About Me</h2>
@@ -33,17 +35,22 @@ Notes taken from class work:
                 <p>Some info about things I like</p>
             </div>
         </div>
+        
+__________
 
-    CSS:
+> CSS:
         div {
             background-color: peachpuff;
         }
-    
+
+__________________________________________________________
+
+
 - CLASS:    .classname {}
 
     The following will select and style all elements with the <div class="classname"> tag, due to the class attribute:
     
-    HTML:
+> HTML:
         <div>
             <div class="box">
                 <h2>About Me</h2>
@@ -54,7 +61,9 @@ Notes taken from class work:
                 <p class="body-text">Some info about things I like</p>
             </div>
         </div>
-    CSS:
+__________
+
+> CSS:
         .box {
             background-color: peachpuff;
         }
@@ -62,11 +71,14 @@ Notes taken from class work:
             color: blue;
         }
 
+__________________________________________________________
+
+
 - ID:    #idname {}
 
     The following will select and style only ONE element with the <div id="idname"> tag, due to the id attribute:
 
-    HTML:
+> HTML:
         <div>
             <div class="box">
                 <h2>About Me</h2>
@@ -81,8 +93,10 @@ Notes taken from class work:
             <p class="body-text">Here is some more text.</p>
             </div>
         </div>
+
+__________
     
-    CSS:
+> CSS:
 
         .box {
             background-color: peachpuff;
