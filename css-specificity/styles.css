@@ -2,30 +2,173 @@
 nav a {
     color: red;
 }
-
+/* 
+0,0,2
+finds <a> elements within parent <nav> and makes them red
+*/
 
 .nav-link {
     color: black;
 }
-
+/* 
+0,1,0
+finds any items with .nav-link class and makes them black
+*/
 
 nav a.nav-link {
     color: green;
 }
-
+/* 
+0,1,2
+finds <a> elements with .nav-link class within parent <nav> and makes them green
+*/
 
 nav a.nav-link#link-1 {
     color: purple;
 }
-
+/*
+1,1,2
+finds <a> elements with .nav-link class with #link-1 ID within parent <nav> and makes them purple
+*/
 
 html div p {
     color: darkgrey;
-}
-
+} 
+/*
+0,0,3
+finds <p> elements within parent <div> within parent <html> and makes them dark grey
+*/
 
 body div p {
     color: hotpink;
 }
+/*
+0,0,3
+finds <p> elements within parent <div> within parent <body> and makes them pink 
+*/
 
 
+
+
+
+
+
+/* -------- FURTHER EXPLORATION --------- */
+
+
+Type.WithClass { 
+    color: blue
+ } 
+/* change type items with class   */
+
+Type#WithID { 
+    color: blue
+ } 
+/* change type items with ID */
+
+.WithClass { 
+    color: blue
+ } 
+/* change items with class */
+
+Parenttype ChildofParentType.WithClass { 
+    color: blue
+} 
+/* change childofparenttype items with class, within parenttype */
+
+Parenttype ChildofParenttype.WithClass#WithID { 
+    color: blue
+} 
+/* change childofparenttype items with class and ID, within parenttype */
+
+Parenttype ChildofParenttype ChildofChildofParentType { 
+    color: blue
+} 
+/* change childofchildofparenttype items, within childofparentype, within parenttype */
+
+Parenttype ChildofParentType { 
+    color: blue
+} 
+/* change childofparentype items within parenttype*/
+
+
+
+/* -------- FURTHER TESTING --------- */
+
+/* 
+nav.nav-link { }
+0,1,1
+locate nav items with .nav-link class
+change nav items
+there are no nav items with .nav-link class
+no change 
+*/
+
+/*
+nav .nav-link { : }
+0,1,1
+locate items with .nav-link class within nav element
+change .nav-link items
+3 items changed
+*/
+
+/*
+header a { }
+0,0,2
+locate a items within header parent
+change a items
+3 a items changed
+*/ 
+
+
+/*
+div p { }
+0,0,2
+locate p items within div parent
+change p items 
+3 a items changed
+*/ 
+
+/*
+p div { }
+0,0,2
+locate div items within p parent
+change div items 
+0 a items changed
+*/ 
+
+ 
+/*
+body div { }
+0,0,2
+locate div items within body parent
+change div items 
+3 a items changed
+*/ 
+
+
+/* 
+header nav { }
+0,0,2
+locate nav items within header parent
+change nav item
+browser overwrites to link formatting
+no change 
+*/
+
+
+/* 
+nav a { }
+0,0,2
+locate a items within nav parent
+change a items
+3 a items changed
+*/
+
+
+/* 
+a nav { }
+0,0,2
+locate nav items within a parent
+change items
+0 items changed (no nav items with a parent)

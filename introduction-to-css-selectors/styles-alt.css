@@ -1,0 +1,32 @@
+body {
+    background-color: lavender;
+    }
+
+#box {
+    background-color: peachpuff;
+}
+
+.list-item {
+        background-color: darkseagreen;
+}
+
+.nav-item {
+    background-color: mediumpurple;
+}
+
+#nav-item3 {
+    background-color: gold;
+}
+
+
+/* DOT = . = matches class in HTML */
+
+.main-heading {
+    background-color: lightskyblue ;
+}
+
+#first-paragraph {
+        background-color: lightcoral;
+}
+
+/* HASH = # = matches ID in HTML */

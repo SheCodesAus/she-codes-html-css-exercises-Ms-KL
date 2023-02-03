@@ -30,3 +30,134 @@ div {
 }
 
 /*** Your code here ***/
+
+/* 
+TASK:
+Let’s adapt this so for screens 500px wide or larger, we see two divs per row
+*/
+
+@media (min-width: 500px) {
+    div {
+        display: inline-block;
+        width: 44%;
+        font-size: 1.5rem;
+    }
+    #div-2 {
+        background-color: #9370db;
+    }
+    #div-4 {
+        background-color: #6495ed;
+    }
+    /* 
+    each div takes up 44% of the width - only 2 divs will fit per row
+    */ 
+}
+
+/* 
+CHALLENGE
+Add another media query to show 4 divs in one row for screens of 900px wide and
+above. 
+Change the font size at each breakpoint. 
+Change the colour of the divs so each row has the some colour divs at each breakpoint. 
+
+What is a BREAKPOINT:
+A breakpoint in a responsive design is the “point” at which a website's content and design will adapt in a certain way in order to provide the best possible user experience.
+*/
+
+
+
+@media (min-width: 900px) {
+    div {
+        display: inline-block;
+        width: 22%;
+        font-size: 1.25rem;
+    }
+    #div-3, #div-4 {
+        background-color: #9370db;
+    } 
+    /* 
+    each div takes up 22% of the width
+    only 4 divs will fit per row
+    inline block ends up 4x1
+    */  
+}
+
+/*
+CHALLENGE:
+Try changing the media queries from min to max queries, and order them largest to smallest. What changes?
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 500px) { */
+    /* when width is min 500px
+    change all divs to be inline, align them and make them 44% of the page */
+    /* div {
+        display: inline-block;
+        width: 44%;
+    }
+    #div-2 {
+        background-color: #9370db;
+    }
+    #div-4 {
+        background-color: #6495ed;
+    }
+} */
+
+
+
+/* @media (min-width: 900px) {
+    div {
+        display: inline-block;
+        width: 22%;
+    }
+    #div-4,#div-3 {
+        background-color: #9370db;
+    }
+} */
+
+/* test query */
+/* @media (max-width: 400px) {
+    div {
+        height: 20%;
+    }
+} */

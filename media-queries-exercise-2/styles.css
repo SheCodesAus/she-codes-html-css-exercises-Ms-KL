@@ -17,6 +17,10 @@ h2 {
     background-color: #5e7992;
     color: #fff;
     font-size: 1rem;
+    /* my code */
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
 }
 
 p {
@@ -26,26 +30,38 @@ form {
     background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    /* my code  */
+    padding: 30px 20px;
 }
 
 label {
     font-weight: bold;
     color: #5e7992;
+    /* my code */
 }
 
 input {
     box-sizing: border-box;
     border: 1px solid #ebeeef;
     background-color: #f9fafa;
+    /* MY CODE */
+    width: 100%;
+    margin-top: 10px;
+
 }
 
 .form-item {
+    /* MY CODE */
+    padding: 10px 3px;
 }
 
 button {
     background-color: #00d982;
     border: none;
     color: #fff;
+    /* MY CODE */
+    width: 100%;
+    padding: 10px;
 }
 
 input,
@@ -54,3 +70,39 @@ button {
     border-radius: 2px;
 }
 
+/* MY CODE */
+
+@media (min-width: 600px) { 
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .row { 
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    form .row .form-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 900px) { 
+    main {
+        display:inline-flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    header {
+        width: 50%;
+        padding-right: 28px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+}

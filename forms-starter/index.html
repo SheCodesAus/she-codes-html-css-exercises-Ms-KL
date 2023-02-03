@@ -13,8 +13,39 @@
             <h1>Get in touch!</h1>
         </header>
 
-        <form action="" method="">
+        <form action="https://formspree.io/f/mnqrzpdo" method="post">
             <!-- your code here -->
+            <!-- POST (research method types) -->
+            <div class="form-item">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <!-- 
+                FOR in label needs to match ID in input
+                MUST have for, id & name in input
+                Don't put placeholders in input
+                -->
+            </div>
+            <div class="form-item">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="email">
+            </div>  
+            <div class="form-item">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+                <!-- 
+                More than 1 line of text or paragraph
+                Use this instead of input
+                Can Style the text area - heights etc
+                -->
+            </div>
+            <div class="form-item">
+                <button type="submit">Send!</button>
+                <!--
+                Can Style buttons
+                -->
+            </div>
+               
+               
         </form>
 
     </body>
