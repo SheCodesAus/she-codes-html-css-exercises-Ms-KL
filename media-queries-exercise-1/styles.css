@@ -1,23 +1,37 @@
 .box {
+    margin: 5px;
 }
 
 .green-box {
+    height: 100px;
+    background-color: #00bb00;
 }
 
 .blue-box {
+    height: 200px;
+    background-color: #0099ff;
 }
 
 .grey-box {
+    height: 75px;
+    background-color: #c9c9c9;
 }
 
 /*** Media Queries Below ***/
 
 @media (min-width: 600px) {
     .green-box {
+        height: 200px;
     }
     .blue-box {
+        height: 300px;
     }
     .grey-box {
+        height: 150px;
+        width: calc(100% / 2 - 10px);
+        /* Make the box have elements 2 deep */
+        display: inline-block;
+        /* Make the box have elements side by side */
     }
 }
 
@@ -25,7 +39,16 @@
     .green-box {
     }
     .blue-box {
+        width: calc(100% / 3 - 10px);
+        /* Make the box have elements 3 deep */
+        display: inline-block;
+        /* Make the box have elements side by side */
+        height: 300px;
     }
     .grey-box {
+        width: calc(100% / 4 - 10px);
+        /* Make the box have elements 4 deep */
+        height: 200px;
+        /* Make the box have elements side by side */
     }
 }

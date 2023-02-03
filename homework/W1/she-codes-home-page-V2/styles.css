@@ -1,0 +1,122 @@
+/* * {
+	border: 1px solid grey;
+} */
+
+header {
+	height: 70px;
+}
+	
+header a {
+	font-size: 1rem;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 1.6rem 0;
+	display: inline-block;
+	color: #000;
+	/* Makes nav black */
+}
+	
+header img {
+	height: 50px;
+	margin: 10px;
+}
+	
+header img {
+	display: inline-block;
+}
+
+nav {
+	float: right;
+	background-color: #fff;
+	/* Puts nav on right */
+}
+
+#hero {
+	height: 50vh;
+	padding: 50px;
+	background-color: #f48fb1;
+	/* Makes movement devoted.. pink */
+}
+
+#header-text {
+	width: 60%;
+}
+
+.column {
+	width: 29%;
+	height: 250px;
+	padding: 2%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.column img {
+	height: 24px;
+}
+
+h2 {
+	color: #fff;
+	}
+
+/* SPECIFITIY */
+
+#columns {
+	background-color: #58d68d;
+}
+
+#column-1 {
+	background-color: #f4d03f;
+}
+
+#column-2 {
+	background-color: #58d68d;
+}
+
+#column-3 {
+	background-color: #5dade2;
+}
+
+.icon-image {
+	filter: invert(100%);
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+#header-text h1{
+	display: inline;
+}
+
+#emphasis {
+	color: #fff;
+	margin-right: 1rem;
+}
+
+.selected {
+	font-weight: bold;
+}
+
+button {
+	padding: 10px;
+	width: 110px;
+	display: block;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-color: #fff;
+	font-size: 0.8rem;
+}
+
+	.column button {
+	background-color: transparent;
+	}
