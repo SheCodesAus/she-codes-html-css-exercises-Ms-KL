@@ -1,0 +1,104 @@
+/* * {
+    border: 1px solid gray;
+} */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    height: 40px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 2px;
+    color: #b21241;
+    margin: auto;
+}
+
+nav {
+    float: right;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border-left: 1px solid lightgrey;
+    color: black;
+}
+
+nav a#nav1 {
+    color: #b21241;
+}
+
+nav a#navsearch {
+    text-decoration: none;
+}
+
+section#hero {
+    background-color: lightgray ;
+    border-color: solid gray;
+}
+
+section div#header-text {
+    width: 50%;
+    text-align: end;
+    padding: 1px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color:black;
+    display: inline;
+    font-weight: bold;
+}
+
+#profiles {
+    background-color: lightgrey;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.profile {
+    width: 300px;
+    height: 350px;
+    padding: 7px;
+    padding-bottom: 30px;
+    margin: 7px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
+    border: 1px solid darkgrey;
+}
+
+.profile img {
+    height: 24vh;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.emphasis {
+    color: grey;
+}
+
+div .course {
+    color:#b21241;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+footer {
+    width: 50%;
+    text-align: end;
+}
